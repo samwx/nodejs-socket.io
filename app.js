@@ -16,6 +16,6 @@ app.get('/', (req, res) => {
     res.render('index')
 })
 
-http.listen(3000, () => {
+http.listen(80, () => {
   console.log('Listening on port 3000')
 })
