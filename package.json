@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/nodemon app.js"
+    "start": "node app.js"
   },
   "author": "Samuel Martins",
   "license": "ISC",
@@ -16,5 +16,6 @@
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
-  }
+  },
+  "type": "module"
 }
